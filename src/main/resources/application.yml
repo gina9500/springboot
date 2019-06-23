@@ -1,0 +1,20 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /
+
+spring:
+  thymeleaf:
+    encoding: UTF-8
+    cache: false
+    mode: LEGACYHTML5
+
+  servlet:
+    multipart:
+      #单个文件上传的大小
+      max-file-size: 5MB
+      #文多个文件的总和大小
+      max-request-size: 20MB
+
+
+
